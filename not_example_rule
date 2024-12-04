@@ -1,0 +1,8 @@
+rule NotExample
+{
+    strings:
+        $hex_string = { F4 23 ~00 62 B4 }
+        $hex_string2 = { F4 23 ~?0 62 B4 }
+    condition:
+        $hex_string and $hex_string2
+}
