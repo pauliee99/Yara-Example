@@ -1,2 +1,2 @@
 # Yara-Example
-Yara getting tarted tutorial
+Yara getting started tutorial
